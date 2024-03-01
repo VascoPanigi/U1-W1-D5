@@ -1,0 +1,181 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* STYLE HOVER ACTION */
+/* .start-button:hover{
+    
+} */
+
+/* BODY */
+body {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  color: #393d41;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #25a2c3;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 0.6em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1em 0;
+}
+
+h3 {
+  margin: 1.2em 0 1em 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* HEADER */
+nav {
+  background-color: black;
+}
+
+#logo {
+  width: 30%;
+  padding: 6%;
+}
+
+/* MAIN */
+
+article section {
+  padding: 2em 1.6em;
+}
+
+/* STYLE ANCHOR TAG AS BUTTON */
+
+a.start-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  padding: 0.9em 1.5em;
+  border-radius: 6px;
+  color: white;
+  background-color: #f04c2f;
+  text-decoration: none;
+}
+
+.button-container {
+  margin: 3em 0 1em 0;
+}
+
+/* ARTICLE */
+.section-container {
+  background-image: url(/Esercizio/images/banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.round-img {
+  display: block;
+  margin: 2em 0;
+}
+
+.round-img > img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+  background-color: #e22d0e;
+  color: white;
+}
+
+.testimonial > h2 {
+  color: white;
+}
+
+#testimonial-quote {
+  font-style: italic;
+  margin-bottom: 1.5em;
+  font-weight: 300;
+}
+
+p > span {
+  font-size: 1.2em;
+  color: white;
+}
+
+.testimonial p:nth-child(3) {
+  font-size: 0.8em;
+}
+
+/* REDIRECT CARDS */
+
+.redirect-card {
+  display: block;
+  width: 85%;
+  margin: 4em auto;
+  border: 1px solid #dee1e3;
+  box-shadow: 0px 0px 0.5px 0.2px #dee1e3;
+  border-radius: 1%;
+}
+
+.redirect-card > p {
+  margin-bottom: 1.7em;
+  padding: 0 1em;
+  font-size: 0.95em;
+}
+
+/* FOOTER */
+
+footer {
+  display: block;
+  background-color: #25a2c3;
+  padding: 2em 3em 2em 3em;
+}
+
+footer > h2 {
+  color: white;
+  font-size: 1.8em;
+}
+
+.contact-info > a {
+  display: block;
+}
+
+.contact-info {
+  padding-bottom: 2em;
+}
+
+#copyright {
+  padding: 2em 0 2em 0;
+  color: white;
+  border-top: 1px solid white;
+}
+
+a {
+  color: white;
+}
+
+/* MEDIA QUERY JUST FOR ESTETHIC REASONS */
+@media (min-width: 500px) {
+  body {
+    margin: 0 auto;
+  }
+}
